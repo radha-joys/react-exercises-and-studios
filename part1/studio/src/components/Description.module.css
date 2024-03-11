@@ -1,0 +1,9 @@
+.recipeAuthorBlock {
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+.imageUpdates {
+    width: 125px;
+    height: 125px;
+}
