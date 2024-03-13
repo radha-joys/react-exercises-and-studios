@@ -1,6 +1,7 @@
 
 #saveButton {
    background-color: red;
+   border-color: red;
    color: white;
    border-radius: 25px;
    font-size: 20px;
@@ -15,6 +16,7 @@
  
  #clickedButton {
    background-color: black;
+   border-color: black;
    color: white;
    border-radius: 25px;
    font-size: 20px;

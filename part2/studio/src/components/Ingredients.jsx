@@ -1,5 +1,14 @@
+import recipeData from './recipe.json';
+
 function IngredientList() {
-   return;
+   return (
+    <div>
+      <h3>Ingredients</h3>
+      <ul>
+        {recipeData.map((recipe) => recipe.ingredients.map((ingredient, index) => <li key={index}>{ingredient}</li>))}
+      </ul>
+    </div>
+   );
  }
  
  export default IngredientList;
