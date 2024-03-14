@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="App">
         <RecipeDisplay />
-        <div className="recipePhotoBlock">
+        <div>
           <BoardAssignment />
           <StatusChange />
         </div>
